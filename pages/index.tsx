@@ -26,7 +26,7 @@ const Home = () => {
 
         <div className={styles.grid0}>
           <a
-            href="https://drive.google.com/file/d/19B4hrVjGjjquoBpHmk4d43tTP7i7pCan/view"
+            href="https://drive.google.com/file/d/1nBSR-PtIcW8HJTRWCmTLd-zE_JIGrpMx/view"
             className={styles.card0}
           >
             <h2>Portfolio &rarr;</h2>
@@ -74,76 +74,108 @@ const Home = () => {
           </a>
         </div>
 
-        {/* 임시section */}
+        {/*임시section */}
         <section className={styles.pr}>
-          <div
+          {/* pr-1 */}
+          {/* <div
             className={styles.pr__container}
             // style="transform: translate(-44.9331%, 0%) translate3d(0px, 0px, 0px);"
           >
             <h2 className={styles.pr__title}>
               함께 일할 멋진 개발자를 찾고 계신가요? 😉
-              {/* <span className={styles.pr__title_accent}>
+              <span className={styles.pr__title_accent}>
                 개발자를&nbsp;
                 <br className={styles.br_tablet} />
                 찾고 계신가요?😉
-              </span> */}
+              </span>
             </h2>
           </div>
+           */}
+          {/* pr-2 */}
           <div className={styles.pr__inner}>
             <div className={styles.feature}>
+              {/* pr-2 left */}
               <strong className={styles.feature__title}>
                 {/* 이럴 때 제가 딱<br />
                 어울릴 것 같아요 */}
-                저는 이런 사람이에요
+                저는 이런 사람이에요 👩🏻‍💼
               </strong>
+              {/* pr-2 right */}
               <div className={styles.feature__content}>
+                {/* <div className={styles.feature__block_1}> */}
+                <div
+                  className={styles.feature__content_1}
+                  style={{ background: "#F2EEE5" }}
+                >
+                  ✍🏻 기술역량
+                </div>
+                {/* </div> */}
                 <ul className={styles.feature__list}>
                   <li className={styles.feature__list_item}>
-                    역량과 경험을 갖춘 웹 퍼블리셔가 필요할 때
+                    <strong>[Frontend]</strong> HTML, CSS, typescript,
+                    Javascript
                   </li>
                   <li className={styles.feature__list_item}>
-                    책임감 있고 함께 일할 때 시너지를 주는 팀원이 필요할 때
+                    <strong>[Backend]</strong> Java, Spring Boot, RESTful AP
                   </li>
                   <li className={styles.feature__list_item}>
-                    성장하지만 겸손을 잃지 않는 사람이 필요할 때
-                  </li>
-                  <li className={styles.feature__list_item}>
-                    좋아하는 일을 잘하는 사람이 필요할 때
+                    <strong>[AWS]</strong> AWS클라우드 환경 기반으로 팀프로젝트
+                    진행 (EC2, S3, RDS등)
                   </li>
                 </ul>
-                <div>
-                  {/* 임시 */}
-                  <h5>[Frontend] HTML, CSS, typescript, Javascript</h5>
-                  <h5>[Backend] Java, Spring Boot, RESTful AP</h5>
-                  <h5>
-                    [AWS] AWS클라우드 환경 기반으로 팀프로젝트 진 (EC2, S3,
-                    RDS등)
-                  </h5>
-                </div>
-                <div>
-                  첫째, 작은 일이라도 처음부터 끝까지 맡는 책임감이 있는 사람
-                  <br />
-                  외주나 팀으로 일을 하게되면 책임을 지고 마무리 단계까지 잘
-                  할것.
-                  <br />
-                  둘째, 변명하지 않는 사람
-                  <br />
-                  어떤 상황에서 합리화하고 변명하기보다 그 문제를 해결하고
-                  빠르게 앞으로 나아갈 수 있는 해결책을 찾는 사람
-                  <br />
-                  마지막으로, 자신만의 원칙을 가진 사람
-                  <br />
-                  자신 나름의 원칙과 기준이 있고, 그것을 고수해나갈 수 있는
-                  분명한 사람 입니다.
-                </div>
-                <a
-                  href="https://www.notion.so/nanalike/23d512605b2d4e3caccabf2c5d108347"
-                  target="_blank"
-                  rel="noopener"
-                  // className={styles.feature__btn btn_line js_download_resume}
+                <div
+                  className={styles.feature__content_1}
+                  style={{ background: "#E5C1C5" }}
                 >
-                  <span className={styles.btn_text}>이력서 (링크)</span>
-                </a>
+                  ✨ 나를 뽑아
+                </div>
+                {/* </div> */}
+                <ul className={styles.feature__list}>
+                  <li className={styles.feature__list_item}>
+                    👀 역량과 경험을 갖춘 웹 퍼블리셔가 필요할 때
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 책임감 있고 함께 일할 때 시너지를 주는 팀원이 필요할 때
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 성장하지만 겸손을 잃지 않는 사람이 필요할 때
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 좋아하는 일을 잘하는 사람이 필요할 때
+                  </li>
+                </ul>
+                <div
+                  className={styles.feature__content_1}
+                  style={{ background: "#C3E2DD" }}
+                >
+                  👑 저는
+                </div>
+                {/* </div> */}
+                <ul className={styles.feature__list}>
+                  <li className={styles.feature__list_item}>
+                    👀 첫째, 작은 일이라도 처음부터 끝까지 맡는 책임감이 있는
+                    사람
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 외주나 팀으로 일을 하게되면 책임을 지고 마무리 단계까지
+                    잘 할것.
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 둘째, 변명하지 않는 사람
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 문제를 해결하고 빠르게 앞으로 나아갈 수 있는 해결책을
+                    찾는 사람
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 마지막으로, 자신만의 원칙을 가진 사람
+                  </li>
+                  <li className={styles.feature__list_item}>
+                    👀 자신 나름의 원칙과 기준이 있고, 그것을 고수해나갈 수 있는
+                    분명한 사람 입니다.
+                  </li>
+                </ul>
+                {/* ---------------------------------------------- */}
               </div>
             </div>
           </div>
@@ -153,7 +185,7 @@ const Home = () => {
       {/* ----------------- footer ----------------- */}
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://drive.google.com/file/d/1nBSR-PtIcW8HJTRWCmTLd-zE_JIGrpMx/view"
           target="_blank"
           rel="noopener noreferrer"
         >
