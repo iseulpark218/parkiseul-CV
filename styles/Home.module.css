@@ -79,7 +79,7 @@
 
 .card:focus,
 .card:active {
-  border: 5px solid blue;
+  border: 5px solid black;
 }
 
 .card h2 {
