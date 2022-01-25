@@ -66,7 +66,7 @@ const Home = () => {
                 <br />
                 (작업중) YouTube Data API를 이용한 website
                 <br />
-                (작업중) starbucks website{" "}
+                (작업중) 공공API를 이용한 백신접종 기관 조회{" "}
               </h5>
             </p>
           </a>
