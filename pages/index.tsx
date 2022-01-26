@@ -70,9 +70,12 @@ const Home = () => {
             </p>
           </a>
         </div>
-        <section className={styles.pr_1}>
+        {/* 0127추가 */}
+        {/* <section className={styles.pr_1}>
           <div className={styles.pr_1__container}></div>
-        </section>
+        </section> */}
+        {/* 0127추가끝 */}
+
         <section className={styles.pr_2}>
           {/* pr-1 */}
           <div
