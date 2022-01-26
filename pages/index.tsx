@@ -13,7 +13,7 @@ const Home = () => {
         <h1 className={styles.title}>
           안녕하세요😎
           <br />
-          <span style={{ color: "darkgrey" }}>(프론트엔드를 좋아하는)</span>
+          <span style={{ color: "#0070f3" }}>(프론트엔드를 좋아하는)</span>
           <br />
           풀스택 개발자 박이슬입니다.
         </h1>
@@ -62,29 +62,30 @@ const Home = () => {
             <p>
               {" "}
               <h5>
-                - Clone Coding
+                * <u>작업중인 프로젝트</u>
                 <br />
-                (작업중) YouTube Data API를 이용한 website
-                <br />
-                (작업중) 공공API를 이용한 백신접종 기관 조회{" "}
+                - YouTube Data API를 이용한 Web&App
+                <br />- 공공API를 이용한 백신접종 기관 조회 Website{" "}
               </h5>
             </p>
           </a>
         </div>
-
-        <section className={styles.pr}>
+        <section className={styles.pr_1}>
+          <div className={styles.pr_1__container}></div>
+        </section>
+        <section className={styles.pr_2}>
           {/* pr-1 */}
           <div
-            className={styles.pr__container}
+            className={styles.pr_2__container}
             // style="transform: translate(-44.9331%, 0%) translate3d(0px, 0px, 0px);"
           >
-            <h2 className={styles.pr__title}>
+            <h2 className={styles.pr_2__title}>
               함께 일할 멋진 개발자를 찾고 계신가요? 😉
             </h2>
           </div>
 
           {/* pr-2 */}
-          <div className={styles.pr__inner}>
+          <div className={styles.pr_2__inner}>
             <div className={styles.feature}>
               {/* pr-2 left */}
               <strong className={styles.feature__title}>
