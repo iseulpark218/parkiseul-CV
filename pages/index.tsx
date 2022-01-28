@@ -21,7 +21,33 @@ const Home = () => {
         {/* <p className={styles.description}>
           상용화 서비스를 개발하는 목표를 가지고 있습니다!
         </p> */}
-
+        <div className={styles.nav__div}>
+          <nav className={styles.nav}>
+            <ul className={styles.nav__ul}>
+              <li className={styles.nav__ul__li}>
+                <a href="#">HOME</a>
+              </li>
+              <li className={styles.nav__ul__li}>
+                <a href="#">ABOUT</a>
+              </li>
+              <li className={styles.nav__ul__li}>
+                <a href="#">TECH SKILLS</a>
+              </li>
+              <li className={styles.nav__ul__li}>
+                <a href="#">EXPERIENCE</a>
+              </li>
+              <li className={styles.nav__ul__li}>
+                <a href="#">CAREER</a>
+              </li>
+              <li className={styles.nav__ul__li}>
+                <a href="#">EDUCATION</a>
+              </li>
+              <li className={styles.nav__ul__li}>
+                <a href="#">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div className={styles.grid}>
           <a
             href="http://ec2-3-34-181-87.ap-northeast-2.compute.amazonaws.com/"
