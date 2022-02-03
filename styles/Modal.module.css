@@ -1,0 +1,38 @@
+.modal_ModalContainer {
+  margin-top: -300px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.modal_DialogBox {
+  margin-top: -400px;
+  width: 550px;
+  /* height: 100px; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: none; */
+  border-radius: 3px;
+  box-shadow: 0 0 50px blueviolet;
+  box-sizing: border-box;
+  background-color: white;
+  border: solid blueviolet 4px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 20px;
+  z-index: 10000;
+}
+
+.modal_Backdrop {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.2);
+}

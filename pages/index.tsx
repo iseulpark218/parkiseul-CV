@@ -1,9 +1,22 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import img from "../public/profile.png";
+
+// 모달시작
+import { useState, useCallback } from "react";
+import Modal from "./components/Modal";
+import styled from "styled-components";
 
 // const Home: NextPage = () => {
 const Home = () => {
+  // 모달시작
+  const [isOpenModal, setOpenModal] = useState<boolean>(false);
+
+  const onClickToggleModal = useCallback(() => {
+    setOpenModal(!isOpenModal);
+  }, [isOpenModal]);
+  // 모달끝
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +26,7 @@ const Home = () => {
         <h1 className={styles.title}>
           안녕하세요😎
           <br />
-          <span style={{ color: "#0070f3" }}>(프론트엔드를 좋아하는)</span>
+          <span style={{ color: "blueviolet" }}>(프론트엔드를 좋아하는)</span>
           <br />
           풀스택 개발자 박이슬입니다.
         </h1>
@@ -49,8 +62,61 @@ const Home = () => {
           </nav>
         </div>
         <div className={styles.grid}>
+          {/* 모달시작 */}
+          <div className={styles.modal_main}>
+            <div className={styles.modal_title}>Profile</div>
+            {isOpenModal && (
+              <Modal onClickToggleModal={onClickToggleModal}>
+                <div className={styles.modal_profile_title}>
+                  <div>
+                    {" "}
+                    <img
+                      style={{ width: "130px" }}
+                      src="/profile.png"
+                      alt="test"
+                      className={styles.modal_profile_img}
+                    />
+                  </div>
+                  <div className={styles.modal_profile_contents}>
+                    <b>
+                      안녕하세요. 신입 개발자 박이슬 입니다.
+                      <br />
+                      조금은 늦게 시작했지만,
+                      <br />
+                      <u>조금 더 나은 삶을 위한</u>
+                      <br />
+                      <u>효율적인 코딩을 지향하는</u>
+                      <br />
+                      <u>자기관리에 부지런한</u>
+                      <br />
+                      개발자가 되기 위해 노력 중 입니다.
+                    </b>
+                  </div>
+                </div>
+                <div>
+                  😊 I’m iseul, coding hobbyist, Full Stack Developer, but
+                  prefer Frontend.
+                  <br /> 👀 I’m interested in typescript / react / next.js
+                  <br /> 🌱 I’m currently learning ReactNative/PostgreSQL
+                  <br /> 📫 How to reach me out : Shoot a mail at{" "}
+                  <u>parkiseul0218@gmail.com</u>
+                  <br /> ✨ Fun fact : I first started programming in 2021..
+                  <br />
+                  <br />
+                  <b>Thanks for watching my portfolio! Have a great day!</b>
+                </div>
+              </Modal>
+            )}
+            <div
+              className={styles.modal_dialogButton}
+              onClick={onClickToggleModal}
+            >
+              Open
+            </div>
+          </div>
+          {/* 모달끝 */}
           <a
-            href="http://ec2-3-34-181-87.ap-northeast-2.compute.amazonaws.com/"
+            // href="http://ec2-3-34-181-87.ap-northeast-2.compute.amazonaws.com/"
             className={styles.card}
             style={{ width: "355px", height: "220px" }}
           >
@@ -63,6 +129,9 @@ const Home = () => {
                 <br />
                 피트니스 예약 서비스 시스템
               </h5>
+              {/* 기본 서버로 아마존 RDS를 통해 postgre를 사용하며, static 관련
+              파일들을 저장하기 위해 S3를 연동하였습니다. 추후 배포는 EC2를 통해
+              진행하였습니다. */}
             </p>
           </a>
           <a
@@ -108,9 +177,9 @@ const Home = () => {
             className={styles.pr_2__container}
             // style="transform: translate(-44.9331%, 0%) translate3d(0px, 0px, 0px);"
           >
-            <h2 className={styles.pr_2__title}>
+            <p className={styles.pr_2__title}>
               함께 일할 멋진 개발자를 찾고 계신가요? 😉
-            </h2>
+            </p>
           </div>
 
           {/* pr-2 */}
@@ -272,5 +341,33 @@ const Home = () => {
     </div>
   );
 };
+
+const Main = styled.main`
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const Title = styled.h3`
+  text-align: center;
+`;
+
+const DialogButton = styled.button`
+  width: 160px;
+  height: 48px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+`;
 
 export default Home;
