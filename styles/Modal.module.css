@@ -1,15 +1,20 @@
 .modal_ModalContainer {
-  margin-top: -300px;
+  margin-top: -200px;
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: fixed;
+  z-index: 20000;
 }
-
+/* @media (max-width: 768px) {
+  .modal_ModalContainer {
+    margin-top: -600px;
+  }
+} */
 .modal_DialogBox {
-  margin-top: -400px;
+  margin-top: -500px;
   width: 550px;
   /* height: 100px; */
   height: auto;
@@ -18,14 +23,14 @@
   align-items: center;
   /* border: none; */
   border-radius: 3px;
-  box-shadow: 0 0 50px blueviolet;
+  box-shadow: 0 0 20px #ffcfc1;
   box-sizing: border-box;
   background-color: white;
-  border: solid blueviolet 4px;
+  border: solid #ffcfc1 4px;
   border-radius: 10px;
   font-size: 15px;
   padding: 20px;
-  z-index: 10000;
+  z-index: 20000;
 }
 
 .modal_Backdrop {
