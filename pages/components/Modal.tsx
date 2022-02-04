@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from "react";
-import styled from "styled-components";
+// import styled from "styled-components";/
 import styles from "../../styles/Modal.module.css";
 import img from "../public/profile.png";
 
