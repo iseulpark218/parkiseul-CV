@@ -104,7 +104,7 @@
 
 .card:hover {
   border: 5px solid black;
-  background: #fdb3cd;
+  background: #ebebeb;
 }
 
 .card:focus,
