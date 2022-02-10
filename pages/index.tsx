@@ -8,7 +8,6 @@ import { useState, useCallback } from "react";
 import Modal from "./components/Modal";
 // import styled from "styled-components";
 
-// const Home: NextPage = () => {
 const Home = () => {
   // 모달시작
   const [isOpenModal, setOpenModal] = useState<boolean>(false);
@@ -31,11 +30,7 @@ const Home = () => {
           풀스택 개발자 박이슬입니다.
         </h1>
         {/* 모달시작 */}
-        <div>
-          <button>
-            <a href="../team/team">임시</a>
-          </button>
-        </div>
+
         <div className={styles.modal_main}>
           <div className={styles.modal_title}>박이슬 프로필</div>
           {isOpenModal && (
