@@ -31,6 +31,11 @@ const Home = () => {
           풀스택 개발자 박이슬입니다.
         </h1>
         {/* 모달시작 */}
+        <div>
+          <button>
+            <a href="../team/team">임시</a>
+          </button>
+        </div>
         <div className={styles.modal_main}>
           <div className={styles.modal_title}>박이슬 프로필</div>
           {isOpenModal && (
@@ -119,7 +124,8 @@ const Home = () => {
         <div className={styles.grid}>
           <a
             // href="http://ec2-3-34-181-87.ap-northeast-2.compute.amazonaws.com/"
-            href="https://drive.google.com/file/d/1BaKKfnGkp40EmGVWHejVPwV9ndNk91DC/view?usp=sharing/"
+            // href="https://drive.google.com/file/d/1BaKKfnGkp40EmGVWHejVPwV9ndNk91DC/view?usp=sharing/"
+            href="./team/team"
             className={styles.card}
             style={{ width: "355px", height: "220px" }}
           >
@@ -132,9 +138,6 @@ const Home = () => {
                 <br />
                 피트니스 예약 서비스 시스템
               </h5>
-              {/* 기본 서버로 아마존 RDS를 통해 postgre를 사용하며, static 관련
-              파일들을 저장하기 위해 S3를 연동하였습니다. 추후 배포는 EC2를 통해
-              진행하였습니다. */}
             </p>
           </a>
           <a
