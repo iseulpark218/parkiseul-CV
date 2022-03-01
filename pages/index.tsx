@@ -160,8 +160,9 @@ const Home = () => {
               <h5>
                 * <u>작업중인 프로젝트</u>
                 <br />
-                - YouTube Data API를 이용한 Web&App
-                <br />- 공공API를 이용한 백신접종 기관 조회 Website{" "}
+                - 프론트 엔드 위주의 개인 프로젝트
+                <br />
+                {/* 업데이트 중 */}
               </h5>
             </p>
           </a>
