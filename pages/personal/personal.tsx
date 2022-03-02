@@ -32,7 +32,7 @@ const Personal = () => {
 
       <img
         // className={styles.img}
-        style={{ width: "400px;", height: "300px", paddingLeft: "30px" }}
+        style={{ width: "auto", height: "300px", paddingLeft: "30px" }}
         src={img_marker.src}
       />
       {/* 프로젝트 -2 */}
