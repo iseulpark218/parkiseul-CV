@@ -4,8 +4,9 @@
 .head {
   font-size: 60px;
   font-weight: 800;
-  /* text-shadow: #b71c1c 2px 1px; */
+  text-shadow: #b71c1c 0.5px 0.5px;
   color: #b71c1c;
+  /* -webkit-text-stroke: 0.5px rgba(255, 0, 0, 0.897); */
 }
 
 .description {
