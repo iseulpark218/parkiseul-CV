@@ -8,10 +8,7 @@ const Personal = () => {
       <div className={styles.head}>
         <a>개인프로젝트 (프론트엔드 위주)</a>
       </div>
-      {/* <div className={styles.description}>
-        프론트엔드에 흥미를 더 느껴, 프론트엔드 위주의 개인프로젝트를 준비하여
-        아래와 같이 정리 해 보았습니다.{" "}
-      </div> */}
+
       {/* 프로젝트 -1 */}
       <div>
         <div className={styles.title}>
