@@ -3,7 +3,7 @@ import styles from "../../../styles/project2.module.css";
 const project2 = () => {
   return (
     <div>
-      <header>project2</header>
+      <header>배포 작업 중</header>
       <body>
         <main>
           <section></section>
