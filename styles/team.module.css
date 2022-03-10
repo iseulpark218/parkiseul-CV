@@ -1,5 +1,8 @@
 .main {
   margin: 10px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .head {
   font-size: 65px;
