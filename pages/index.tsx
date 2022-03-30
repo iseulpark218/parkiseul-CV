@@ -316,6 +316,7 @@ const Home = () => {
         {/* footer icon */}
         <div>
           <div className={styles.icon_footer}>
+            {/* https://simpleicons.org/ */}
             {/* github */}
             <a href="https://github.com/iseulpark218">
               <img
@@ -332,6 +333,14 @@ const Home = () => {
               <img
                 alt="Tistory"
                 src="https:///img.shields.io/badge/Tistory-181717.svg?&style=for-the-badge&logo=GoogleFit&logoColor=white"
+                style={{ borderRadius: "10px" }}
+              />
+            </a>
+            {/* notion */}
+            <a href="" style={{ margin: "0 0 0 10px" }}>
+              <img
+                alt="Notion"
+                src="https:///img.shields.io/badge/Notion-181717.svg?&style=for-the-badge&logo=Notion&logoColor=white"
                 style={{ borderRadius: "10px" }}
               />
             </a>
