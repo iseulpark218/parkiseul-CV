@@ -8,6 +8,8 @@ import { useState, useCallback } from "react";
 import Modal from "./components/Modal";
 // import styled from "styled-components";
 
+// 프로젝트 스타일 변경하기
+
 const Home = () => {
   // 모달시작
   const [isOpenModal, setOpenModal] = useState<boolean>(false);
