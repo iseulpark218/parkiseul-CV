@@ -339,7 +339,10 @@ const Home = () => {
               />
             </a>
             {/* notion */}
-            <a href="" style={{ margin: "0 0 0 10px" }}>
+            <a
+              href="https://parkiseul218.notion.site/e4268b6d116a42029496e52aa0c3efc2"
+              style={{ margin: "0 0 0 10px" }}
+            >
               <img
                 alt="Notion"
                 src="https:///img.shields.io/badge/Notion-181717.svg?&style=for-the-badge&logo=Notion&logoColor=white"
