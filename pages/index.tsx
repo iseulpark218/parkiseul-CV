@@ -27,9 +27,9 @@ const Home = () => {
         <h1 className={styles.title}>
           안녕하세요😎
           <br />
-          <span style={{ color: "#2d35da" }}>(프론트엔드를 좋아하는)</span>
-          <br />
-          풀스택 개발자 박이슬입니다.
+          <span style={{ color: "#2d35da" }}>프론트엔드 개발자 </span>
+          <span>박이슬입니다.</span>
+          {/* 풀스택 개발자 박이슬입니다. */}
         </h1>
         {/* 모달시작 */}
 
