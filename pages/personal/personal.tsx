@@ -35,14 +35,14 @@ const Personal = () => {
         src={img_marker.src}
       />
       {/* 프로젝트 -2 */}
-      <div>
+      {/* <div>
         <div className={styles.title}>
           {" "}
           <a href="./project2/home">SeulTube</a>
         </div>
         <p className={styles.content}>YouTube Data API를 이용한 Web&App</p>
         <img className={styles.img} />
-      </div>
+      </div> */}
       {/* 프로젝트 -3 */}
       <div>
         <div className={styles.title}>
