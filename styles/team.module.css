@@ -1,11 +1,11 @@
 .main {
   margin: 10px;
   padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .head {
-  font-size: 65px;
+  font-size: 85px;
   font-weight: 800;
   text-shadow: #0100a4 2px 1px;
   color: #0100a4;
@@ -14,15 +14,17 @@
 .title {
   margin-top: 50px;
   padding-left: 20px;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   text-shadow: black 0.8px 0.5px;
-  background-color: rgb(235, 235, 235);
-  /* border: double black 10px; */
+  /* background-color: rgb(235, 235, 235); */
   border: solid black 5px;
   border-radius: 20px;
   margin-bottom: 10px;
   letter-spacing: 3px;
+  /* background: rgba(0, 0, 255, 0.852); */
+  background-color: #0100a4;
+  color:white;
 }
 
 .description {

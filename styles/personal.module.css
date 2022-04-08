@@ -1,15 +1,17 @@
 .main {
   margin: 10px;
   padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .head {
-  font-size: 60px;
+  font-size: 63px;
   font-weight: 800;
-  text-shadow: #b71c1c 0.5px 0.5px;
-  color: #b71c1c;
+  /* text-shadow: #b71c1c 0.5px 0.5px;
+  color: #b71c1c; */
   /* -webkit-text-stroke: 0.5px rgba(255, 0, 0, 0.897); */
+  text-shadow: #0100a4 2px 1px;
+  color: #0100a4;
 }
 
 .description {
@@ -24,8 +26,10 @@
   padding-left: 20px;
   font-size: 32px;
   font-weight: 700;
-  text-shadow: black 0.8px 0.5px;
-  background-color: rgb(235, 235, 235);
+  /* text-shadow: black 0.8px 0.5px; */
+  /* background-color: rgb(235, 235, 235); */
+    background-color: #0100a4;
+    color:white;
   /* border: double black 10px; */
   border: solid black 5px;
   border-radius: 20px;
@@ -37,8 +41,10 @@
   padding-left: 10px;
   font-size: 22px;
   font-weight: 700;
-  background-color: rgb(235, 235, 235);
-  border: solid grey 4px;
+  /* background-color: rgb(235, 235, 235); */
+      background-color: #0000a4d4;
+      color:white;
+  border: solid black 4px;
   border-radius: 10px;
   margin-bottom: 10px;
   letter-spacing: 3px;
