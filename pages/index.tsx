@@ -120,8 +120,6 @@ const Home = () => {
         {/* nav끝 */}
         <div className={styles.grid}>
           <a
-            // href="http://ec2-3-34-181-87.ap-northeast-2.compute.amazonaws.com/"
-            // href="https://drive.google.com/file/d/1BaKKfnGkp40EmGVWHejVPwV9ndNk91DC/view?usp=sharing/"
             href="./team/team"
             className={styles.card}
             style={{ width: "355px", height: "220px" }}
