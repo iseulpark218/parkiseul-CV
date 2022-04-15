@@ -162,16 +162,10 @@ const Home = () => {
                 <br />
                 - 프론트 엔드 위주의 개인 프로젝트
                 <br />
-                {/* 업데이트 중 */}
               </h5>
             </p>
           </a>
         </div>
-        {/* 0127추가 */}
-        {/* <section className={styles.pr_1}>
-          <div className={styles.pr_1__container}></div>
-        </section> */}
-        {/* 0127추가끝 */}
 
         <section className={styles.pr_2}>
           {/* pr-1 */}
