@@ -169,10 +169,7 @@ const Home = () => {
 
         <section className={styles.pr_2}>
           {/* pr-1 */}
-          <div
-            className={styles.pr_2__container}
-            // style="transform: translate(-44.9331%, 0%) translate3d(0px, 0px, 0px);"
-          >
+          <div className={styles.pr_2__container}>
             <p className={styles.pr_2__title}>
               함께 일할 멋진 개발자를 찾고 계신가요? 😉
             </p>
